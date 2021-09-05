@@ -15,7 +15,7 @@
 <body>
   <h3>Product Add</h3>
   <div class="add">
-    <form id="main" action="products.php" method="POST">
+    <form id="#product_form" action="products.php" method="POST">
       <div class="button-wrapper">
         <button class="button submition" type="submit" name="submit">Save</button>
         <button id="button-cancel" class="button submition" name="cancel">Cancel</button>
