@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $('#n4').change(function() {
+$(document).ready(function () {
+  $('#n4').change(function () {
     var val = $("#n4 option:selected").text();
     if (val == "") {
       $('.book').hide();
@@ -37,6 +37,11 @@ $(document).ready(function(){
       $('#f3').val('');
       $('#w1').val('');
     }
-});
+  });
+
+  $("#button-cancel").click(function (event) {
+    event.preventDefault();
+    location.href = "../ScndiWeb/index.php"
+  });
 
 });

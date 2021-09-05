@@ -9,7 +9,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <script src="jquery-3.3.1.min.js"></script>
   <script src="main.js"></script>
-  <link rel="stylesheet" href="/style/main.css">
+  <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
@@ -18,7 +18,7 @@
     <form id="main" action="products.php" method="POST">
       <div class="button-wrapper">
         <button class="button submition" type="submit" name="submit">Save</button>
-        <button class="button submition" name="scancle">Cancle</button>
+        <button id="button-cancel" class="button submition" name="cancel">Cancel</button>
       </div>
       <hr>
       <h4>SKU</h4>
@@ -70,11 +70,6 @@
   </div>
   </div>
 
-  <script type="text/javascript">
-    document.getElementById("button-cancle").onclick = function() {
-      location.href = "../index.php";
-    };
-  </script>
 
   <?php
   //Display errors

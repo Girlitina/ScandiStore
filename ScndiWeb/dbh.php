@@ -16,8 +16,8 @@ class Dbh
     $this->password = "";
     $this->dbname = "listofproducts";
 
-    // $this->servername = "	sql204.epizy.com";
-    // $this->username = "	epiz_29616078";
+    // $this->servername = "sql204.epizy.com";
+    // $this->username = "epiz_29616078";
     // $this->password = "HOqj3jbson";
     // $this->dbname = "epiz_29616078_listofproducts";
 

@@ -11,7 +11,6 @@ class Furniture extends Thing
 
   public function ExtraForFurniture()
   {
-
     $this->height = mysqli_real_escape_string($this->connect(), $_POST['height']);
     $this->width = mysqli_real_escape_string($this->connect(), $_POST['width']);
     $this->length = mysqli_real_escape_string($this->connect(), $_POST['length']);
