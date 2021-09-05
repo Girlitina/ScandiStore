@@ -151,17 +151,17 @@ h4 {
   font-weight: 500;
 }
 
-#n1, #n4 {
+#sku, #productType {
   margin-left: 80px;
   margin-bottom: 15px;
 }
 
-#n2, #n4 {
+#name, #productType {
   margin-left: 64px;
   margin-bottom: 15px;
 }
 
-#n3 {
+#price {
   margin-left: 74px;
   margin-bottom: 15px;
 }

@@ -20,13 +20,13 @@ h4 {
   display: inline-block;
 }
 
-#n1,#n4 {
+#sku,#productType {
   margin-left: 5%;
 }
-#n2,#n4 {
+#name,#productType {
   margin-left: 4.5%;
 }
-#n3 {
+#price {
   margin-left: 5%;
 }
 .furnit, .book, .disc {
